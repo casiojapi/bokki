@@ -1,8 +1,9 @@
 body {
-    background-image: url("/assets/img/avion.jpeg");
+    /* background-image: url("/assets/img/avion.jpeg"); */
+    background-color: #111;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    color: #222;
+    color: #ddd;
 
 }
 
@@ -12,35 +13,38 @@ body {
 }
 
 .intro {
+  position: fixed;
   font-size: 1.3em;
-  margin-right: 2em;
-  float: right;
+  right: 9em;
   margin-top: 3em;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-gap: 1.5em;
-  color: #444;
-  width: 70vw;
+  grid-template-columns: 420px;
+  grid-gap: 0em;
+  color: #fff;
+  width: 76vw;
   margin: auto;
   padding-top: 15em;
+  float: center;
 }
 
+.spotify {
+  padding: 0em;
+}
 
 
 @media only screen and (max-width: 1400px) {
   .grid-container {
-    grid-template-columns: 300px 300px 300px;
-    padding-top: 12em;
+    grid-template-columns: 420px;
   }
 }
 
 @media only screen and (max-width: 1050px) {
   .grid-container {
-    grid-template-columns: 300px 300px;
-    padding-top: 10em;
+    grid-template-columns: 400px;
+
   }
 }
 
@@ -48,6 +52,7 @@ body {
 
   .grid-container {
     grid-template-columns: 300px;
-    padding-top: 3em;
+    padding-top: 12em;
+
   }
 }
