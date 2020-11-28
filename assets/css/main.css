@@ -15,8 +15,18 @@ body {
 .intro {
   position: fixed;
   font-size: 1.3em;
-  right: 9em;
+  right: 11em;
   margin-top: 3em;
+}
+
+#loguito {
+  position: fixed;
+  background-color: #fefefe;
+  border-radius: 1.9em;
+  padding: 0.5em;
+  right: 7em;
+  bottom: 5em;
+ 
 }
 
 .grid-container {
@@ -32,6 +42,12 @@ body {
 .spotify {
   padding: 0em;
 }
+
+.footer-social-icons {
+  display: fixed;
+  margin: 10em 4em;
+}
+
 
 
 @media only screen and (max-width: 1400px) {
