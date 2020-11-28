@@ -1,9 +1,9 @@
 body {
     /* background-image: url("/assets/img/avion.jpeg"); */
-    background-color: #111;
+    background-color: #010101;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ddd;
+    color: #fefefe;
 
 }
 
@@ -23,7 +23,6 @@ body {
   display: grid;
   grid-template-columns: 420px;
   grid-gap: 0em;
-  color: #fff;
   width: 76vw;
   margin: auto;
   padding-top: 15em;
