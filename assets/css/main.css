@@ -19,6 +19,13 @@ body {
   margin-top: 3em;
 }
 
+.intro h1 {
+  background-color: #fff;
+  color: #000;
+  padding: 0.1em;
+  margin-left: 1em;
+}
+
 #loguito {
   position: fixed;
   background-color: #fefefe;
@@ -40,7 +47,11 @@ body {
 }
 
 .spotify {
-  padding: 0em;
+  padding: 2em 0em;
+}
+
+.spotify h3 {
+  padding: 0.9em 0em;
 }
 
 .footer-social-icons {
@@ -63,11 +74,31 @@ body {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
+
+  #loguito {
+    position:fixed;
+    background-color: #fefefe;
+    border-radius: 1.9em;
+    padding: 0.5em;
+    right: 1em;
+    bottom: 2em;
+  
+  }
 
   .grid-container {
-    grid-template-columns: 300px;
-    padding-top: 12em;
+      grid-template-columns: 300px;
+      padding: 12em 0em 0em 0em;
+      font-size: 0.7em;
+  }
+    
+  .spotify iframe {
+      width: 80%;
+  }
 
+  .footer-social-icons {
+    margin: 0em 2em;
+    width: 100%;
+    padding: 2em 0em 2em 0em;
   }
 }
